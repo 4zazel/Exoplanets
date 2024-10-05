@@ -21,7 +21,10 @@ function Header()
                 <a className="nav-link" href="#">Exoplanety</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">Kontakt</a>
+                    <a className="nav-link" href="#">Statystyki</a>
+                </li>
+                <li className="nav-item">
+                <a className="nav-link" href="#">Kontakt</a>
                 </li>
             </ul>
             </div>

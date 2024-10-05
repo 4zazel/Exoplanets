@@ -4,6 +4,9 @@ import PlanetCard from "./PlanetCard";
 function PlanetsList()
 {
     return(
+        <>
+        <br></br>
+        <h1 className="text-center">Pick an Exoplanet to learn more!</h1>
         <div className="container text-center">
             <div className="row">
                 <div className="col">
@@ -39,6 +42,7 @@ function PlanetsList()
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
