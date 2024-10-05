@@ -4,9 +4,8 @@ function Introduction()
 {
 
     return(
-        <div id="introduction">
-            <h1>What exactly is an exoplanet?</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos totam, laborum nostrum amet dolor atque ipsam hic, similique ea libero iste accusamus quod dolore tempora veniam maxime sapiente ab quas.</p>
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis odit doloribus similique rerum tempore vero repellat modi maiores quod. Voluptas officia tempore harum recusandae culpa. Molestias consequatur tempora necessitatibus corporis.</p>
         </div>
     )
 

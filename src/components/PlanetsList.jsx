@@ -4,37 +4,37 @@ import PlanetCard from "./PlanetCard";
 function PlanetsList()
 {
     return(
-        <div clas="container text-center">
-            <div class="row">
-                <div class="col">
+        <div className="container text-center">
+            <div className="row">
+                <div className="col">
                     <PlanetCard/>
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <PlanetCard/>    
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div className="row">
+                <div className="col">
                     <PlanetCard/>
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
-                <div class="col">
+                <div className="col">
                     <PlanetCard/>
                 </div>
             </div>
