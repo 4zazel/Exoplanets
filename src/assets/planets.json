@@ -1,35 +1,35 @@
-[
 {
-    "id": 1,
-    "name": "Proxima B",
-    "shortDescription": "ba",
-    "description": "bbbbbbbbbbbbbbbbbbbbbbb",
-    "gravity": 10,
-    "type": "rock",
-    "size": 1000,
-    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
-    "temperature": 100
-},
-{
-    "id": 2,
-    "name": "Proxima C",
-    "shortDescription": "bllll",
-    "description": "bbbbbbbbbbbbbbbbbbbbbbb",
-    "gravity": 10,
-    "type": "rock",
-    "size": 1000,
-    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
-    "temperature": 100
-},
-{
-    "id": 3,
-    "name": "Proxima D",
-    "shortDescription": "blc",
-    "description": "bbbbbbbbbbbbbbbbbbbb",
-    "gravity": 10,
-    "type": "rock",
-    "size": 1000,
-    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
-    "temperature": 100
+    "planets":[
+        {
+            "id": 1,
+            "name": "PSR B1257+12 B",
+            "shortDescription": "The first exoplanet ever discovered!",
+            "description": "Discovered by a Polish astronomer, PSR B1257+12 B (also called Poltergeist) is the first exoplanet ever discovered. It's approximately 2,300 lightyears away!",
+            "mass": 0.02,
+            "type": "Rocky",
+            "size": 0.338,
+            "dateOfDiscovery": 1994 ,
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fscience.nasa.gov%2Fexoplanet-catalog%2Fpsr-b125712-b%2F&psig=AOvVaw0nIerd7CTmWiyD7RzPgWke&ust=1728226367481000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCxv4i_94gDFQAAAAAdAAAAABAE"
+        },
+        {
+            "id": 2,
+            "name": "TrES-2b",
+            "shortDescription": "The darkest exoplanet of them all!",
+            "description": "This terrifying exoplanet feels like something out of a space horror film! With its red glow it looks like stuff from nightmares!",
+            "mass": 473,
+            "type": "Gas Giant",
+            "size": 432,
+            "dateOfDiscovery": 2006
+        },
+        {
+            "id": 2,
+            "name": "TrES-2b",
+            "shortDescription": "The darkest exoplanet of them all!",
+            "description": "This terrifying exoplanet feels like something out of a space horror film! With its red glow it looks like stuff from nightmares!",
+            "mass": "1.49 Jupiters",
+            "type": "Gas Giant",
+            "size": "1.36 x Jupiter",
+            "dateOfDiscovery": 2006
+        }
+    ]
 }
-]
