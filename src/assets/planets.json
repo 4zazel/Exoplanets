@@ -5,7 +5,7 @@
         "shortDescription": "The first exoplanet ever discovered!",
         "description": "Discovered by a Polish astronomer, PSR B1257+12 B (also called Poltergeist) is the first exoplanet ever discovered. It's approximately 2,300 lightyears away!",
         "mass": 0.02,
-        "type": "Rocky",
+        "type": "Terrestrial",
         "size": 0.338,
         "dateOfDiscovery": 1994 ,
         "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/PSR_B1257%2B12_B.jpg"
@@ -19,16 +19,28 @@
         "type": "Gas Giant",
         "size": 432,
         "dateOfDiscovery": 2006,
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fplanet.fandom.com%2Fwiki%2FTrES-2b&psig=AOvVaw3ji92h_Xqu3NAsRtIUPhpf&ust=1728226442151000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPC2g6u_94gDFQAAAAAdAAAAABAE"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TrES-2b.jpg/800px-TrES-2b.jpg"
     },
     {
         "id": 3,
         "name": "KELT-9b",
         "shortDescription": "Super hot exoplanet!",
-        "description": "This planet is so extremely hot planet, hot enough to tear molecules!",
-        "mass": "1.49 Jupiters",
+        "description": "This planet is so extremely hot, in fact It's hot enough to tear molecules!",
+        "mass": 915,
         "type": "Gas Giant",
-        "size": "1.36 x Jupiter",
-        "dateOfDiscovery": 2006
+        "size": 600,
+        "dateOfDiscovery": 2017,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Exoplanet_sphere.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kepler-452b",
+        "shortDescription": "The other Earth!",
+        "description": "This exoplanet is strangely similar to our home, earth. Who knows... Maybe one day we could move there!",
+        "mass": 3.29,
+        "type": "Super Earth",
+        "size": 1.63,
+        "dateOfDiscovery": 2015,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kepler-452b_artist_concept.jpg/1280px-Kepler-452b_artist_concept.jpg"
     }
 ]
