@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Introduction from "./Introduction";
 import PlanetsList from "./PlanetsList";
+import PlanetDescription from "./PlanetDescription";
 import MyContext from "../assets/MyContext";
 function MainNav()
 {
@@ -9,7 +10,7 @@ function MainNav()
     
     return (
         <MyContext.Provider value={{isIntro, setIsIntro, currentPlanet, setCurrentPlanet}}>
-            {isIntro ? <Introduction/> : <p></p>}
+            {isIntro ? <Introduction/> : <PlanetDescription planet={currentPlanet}/>}
             <PlanetsList/>
         </MyContext.Provider>
     )
