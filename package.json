@@ -5,8 +5,8 @@
   "homepage": "https://4zazel.github.io/Exoplanets/",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run dev",
+    "dev": "vite",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
