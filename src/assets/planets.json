@@ -7,8 +7,7 @@
         "mass": 0.02,
         "type": "Terrestrial",
         "size": 0.338,
-        "dateOfDiscovery": 1994 ,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/PSR_B1257%2B12_B.jpg"
+        "dateOfDiscovery": 1994
     },
     {
         "id": 2,
@@ -18,8 +17,7 @@
         "mass": 473,
         "type": "Gas Giant",
         "size": 432,
-        "dateOfDiscovery": 2006,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TrES-2b.jpg/800px-TrES-2b.jpg"
+        "dateOfDiscovery": 2006
     },
     {
         "id": 3,
@@ -29,8 +27,7 @@
         "mass": 915,
         "type": "Gas Giant",
         "size": 600,
-        "dateOfDiscovery": 2017,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Exoplanet_sphere.jpg"
+        "dateOfDiscovery": 2017
     },
     {
         "id": 4,
@@ -40,7 +37,6 @@
         "mass": 3.29,
         "type": "Super Earth",
         "size": 1.63,
-        "dateOfDiscovery": 2015,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kepler-452b_artist_concept.jpg/1280px-Kepler-452b_artist_concept.jpg"
+        "dateOfDiscovery": 2015
     }
 ]

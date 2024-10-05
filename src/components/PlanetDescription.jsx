@@ -15,7 +15,7 @@ function PlanetDescription({planet})
                     <h3>Date of Discovery: {planet.dateOfDiscovery}</h3>
                 </div>
                 <div className="col">
-                    <img src={planet.image} href="#"></img>
+                    <img src={"/img/big" + planet.id + ".png"} href="#"></img>
                 </div>
             </div>
         </>
