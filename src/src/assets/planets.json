@@ -1,0 +1,35 @@
+[
+{
+    "id": 1,
+    "name": "Proxima B",
+    "shortDescription": "ba",
+    "description": "bbbbbbbbbbbbbbbbbbbbbbb",
+    "gravity": 10,
+    "type": "rock",
+    "size": 1000,
+    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
+    "temperature": 100
+},
+{
+    "id": 2,
+    "name": "Proxima C",
+    "shortDescription": "bllll",
+    "description": "bbbbbbbbbbbbbbbbbbbbbbb",
+    "gravity": 10,
+    "type": "rock",
+    "size": 1000,
+    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
+    "temperature": 100
+},
+{
+    "id": 3,
+    "name": "Proxima D",
+    "shortDescription": "blc",
+    "description": "bbbbbbbbbbbbbbbbbbbb",
+    "gravity": 10,
+    "type": "rock",
+    "size": 1000,
+    "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?w=4096&format=jpeg",
+    "temperature": 100
+}
+]
