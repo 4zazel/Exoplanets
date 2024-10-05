@@ -1,5 +1,6 @@
 import React from "react";
 import PlanetCard from "./PlanetCard";
+import planets from "../assets/planets.json"
 
 function PlanetsList()
 {
@@ -9,37 +10,7 @@ function PlanetsList()
         <h1 className="text-center">Pick an Exoplanet to learn more!</h1>
         <div className="container text-center">
             <div className="row">
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col">
-                    <PlanetCard/>    
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
-                <div className="col">
-                    <PlanetCard/>
-                </div>
+                {planets.map(planet =><div className="col col-4"><PlanetCard key={planet.id} planet={planet}/></div>)}
             </div>
         </div>
         </>
