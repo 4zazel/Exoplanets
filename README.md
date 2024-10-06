@@ -15,6 +15,8 @@ Our app also includes a section dedicated to more specific information about eac
 2. Open a terminal in this directory
 3. type the commands below:
 ```
+  git clone https://github.com/4zazel/Exoplanets.git
+  cd Exoplanets/
   npm install
   npm i vite three @types/three @react-three/fiber bootstrap
   npm run dev
