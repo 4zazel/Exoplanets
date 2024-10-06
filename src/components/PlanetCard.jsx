@@ -11,7 +11,7 @@ function PlanetCard({planet})
         
     <div id={"card"+planet.id} className="card m-3">
         {/*<img src={"img/small" + planet.id + ".png"} style={{maxHeight: 400, maxWidth: 400}} className="card-img-top"/>*/}
-        <div style={{zIndex: 10}}>
+        <div style={{zIndex: 10, display: "inline-block", float: "left"}}>
             <Shape planet={planet}/>
         </div>
         <div className="card-body">
