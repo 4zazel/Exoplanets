@@ -15,9 +15,7 @@ git
 nodejs
 
 ## How to use
-1. Clone the github repo
-2. Open a terminal in this directory
-3. type the commands below:
+Open an empty directory and type these comands in the terminal:
 ```
   git clone https://github.com/4zazel/Exoplanets.git
   cd Exoplanets/
