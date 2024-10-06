@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import MyContext from "../assets/MyContext";
+import Shape from './Shape.jsx'
 
 function PlanetCard({planet})
 {
@@ -9,7 +10,10 @@ function PlanetCard({planet})
     return(
         
     <div id={"card"+planet.id} className="card m-3">
-        <img src={"img/small" + planet.id + ".png"} style={{maxHeight: 400, maxWidth: 400}} className="card-img-top"/>
+        {/*<img src={"img/small" + planet.id + ".png"} style={{maxHeight: 400, maxWidth: 400}} className="card-img-top"/>*/}
+        <div style={{zIndex: 10}}>
+            <Shape planet={planet}/>
+        </div>
         <div className="card-body">
             <h4 className="card-title">{planet.title}</h4>
             <div className="card-text">{planet.shortDescription}</div>

@@ -1,5 +1,4 @@
 import React from "react";
-//import Shape from "./Shape.jsx"
 
 function Introduction()
 {
@@ -20,10 +19,7 @@ function Introduction()
                 <p>works by observing Doppler shift in the spectrum of the planet's parent star</p>
     
             </div>
-           
-            <div className="col fixed-top position-absolute">
-            {/*<Shape/> */}
-            </div>
+
             </div>
    )
 }
