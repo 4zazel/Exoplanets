@@ -11,7 +11,7 @@ function Shape({planet}) {
     renderer.setSize(1200, 600);
 
     refContainer.current && refContainer.current.appendChild( renderer.domElement );
-    var geometry = new THREE.SphereGeometry(3, 45, 45)
+    var geometry = new THREE.SphereGeometry(3, 100, 100)
 
     const light = new THREE.HemisphereLight( 0xffffff, 0x080808, 4 );
     scene.add( light );
