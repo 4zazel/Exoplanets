@@ -18,7 +18,7 @@ function PlanetCard({planet})
             <div className="card-text">{planet.shortDescription}</div>
             <button className={"btn " + (currentPlanet == planet ? "btn-danger" : "btn-success")} onClick={() => {
                 scrollTo(top)
-                setIsIntro(!isIntro)
+                setIsIntro(currentPlanet == planet && isIntro == false)
                 if(currentPlanet != planet)
                 {
                     setCurrentPlanet(planet);

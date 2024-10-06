@@ -38,5 +38,25 @@
         "type": "Super Earth",
         "size": 1.63,
         "dateOfDiscovery": 2015
-    }
+    },
+    {
+        "id": 5,
+        "name": "OGLE-2005-BLG-390Lb",
+        "shortDescription": "A world of ice!",
+        "description": "This blue monster is the coldest knwos exoplanet, reaching a temperature lower than the melting point of oxygen!",
+        "mass": 5.5,
+        "type": "Neptune-like",
+        "size": 2.21,
+        "dateOfDiscovery": 2005
+    },
+    {
+        "id": 6,
+        "name": "PSR B1620-26 b",
+        "shortDescription": "The grandpa of planets!",
+        "description": "This planet is the oldest exoplant that we found, with an age of 12.7 billion year!",
+        "mass": 794.5,
+        "type":"Gas Giant",
+        "size": 12.98,
+        "dateOfDiscovery": 2003
+    }   
 ]
