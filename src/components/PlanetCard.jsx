@@ -14,7 +14,7 @@ function PlanetCard({planet})
             <Shape planet={planet}/>
         </div>
         <div className="card-body card_bg">
-            <h4 className="card-title">{planet.name}</h4>
+            <h4 className="card-title" style={{color: "white"}}>{planet.name}</h4>
             <div className="card-text">{planet.shortDescription}</div>
             <button className={"btn " + (currentPlanet == planet ? "btn-danger" : "btn-success")} onClick={() => {
                 scrollTo(top)
