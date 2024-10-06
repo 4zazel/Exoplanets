@@ -10,7 +10,7 @@ function PlanetsList()
         <h1 className="text-center">Pick an Exoplanet to learn more!</h1>
         <div className="container text-center">
             <div className="row">
-                {planets.map(planet =><div className="col col-4"><PlanetCard key={planet.id} planet={planet}/></div>)}
+                {planets.map(planet =><div className="col col-lg-4 col-6"><PlanetCard key={planet.id} planet={planet}/></div>)}
             </div>
         </div>
         </>

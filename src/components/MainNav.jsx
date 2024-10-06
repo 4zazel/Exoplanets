@@ -3,6 +3,7 @@ import Introduction from "./Introduction";
 import PlanetsList from "./PlanetsList";
 import PlanetDescription from "./PlanetDescription";
 import MyContext from "../assets/MyContext";
+import './Style.css';
 
 function MainNav()
 {

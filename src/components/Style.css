@@ -1,0 +1,30 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url('/img/background.jpg');
+}
+
+.space_bg{
+    background-image: url('/img/background.jpg');
+}
+
+.blue_bg{
+    background-color: #15151a;
+}
+
+.border_nice{
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+}
+
+.header{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.card_bg{
+    background-color: #17191d;
+}

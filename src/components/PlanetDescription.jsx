@@ -3,7 +3,7 @@ import React from "react";
 function PlanetDescription({planet})
 {
     return(
-        <>
+        <div className="space_bg">
             <h1 className="text-center">{planet.name} - {planet.shortDescription}</h1>
             <div className="m-5 row">
                 <div className="col">
@@ -18,7 +18,7 @@ function PlanetDescription({planet})
                     <img src={"/img/big" + planet.id + ".png"} href="#"></img>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -6,6 +6,8 @@ import MainNav from './components/MainNav.jsx'
 createRoot(document.getElementById('root')).render(
   <>
     <Header />
-    <MainNav/>
+    <div className='blue_bg'>
+      <MainNav/>
+    </div>
   </>,
 )

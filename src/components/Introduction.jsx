@@ -3,7 +3,7 @@ import React from "react";
 function Introduction()
 {
     return(
-        <div className="row">
+        <div className="space_bg row">
             <div className="overflow-auto m-4 col" style={{height: '400px'}}>
                 <h1>What are exoplanets?</h1>
                 <p>It's pretty simple. Exoplanets are planets outside of the solar system.</p>

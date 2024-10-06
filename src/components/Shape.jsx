@@ -15,7 +15,7 @@ function Shape({planet}) {
     refContainer.current && refContainer.current.appendChild( renderer.domElement );
     var geometry = new THREE.SphereGeometry(3, 45, 45)
 
-    const light = new THREE.HemisphereLight( 0xffffff, 0x080820, 4 );
+    const light = new THREE.HemisphereLight( 0xffffff, 0x000000, 4 );
     scene.add( light );
 
     var texture = new THREE.TextureLoader().load('img/texture' + planet.id + ".png" );
