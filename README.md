@@ -10,6 +10,10 @@ You can find a brief explanation and history of exoplanets before exploring spac
 We wanted to make the User Interface as simple as possible to make it easy for younger people to use.
 Our app also includes a section dedicated to more specific information about each exoplanet and a size comparison to our home earth.
 
+## Dependencies
+git
+nodejs
+
 ## How to use
 1. Clone the github repo
 2. Open a terminal in this directory
