@@ -18,7 +18,7 @@ nodejs
 Open an empty directory and type these comands in the terminal:
 ```
   git clone https://github.com/4zazel/Exoplanets.git
-  cd Exoplanets/
+  cd Exoplanets
   npm install
   npm i vite three @types/three @react-three/fiber bootstrap
   npm run dev
